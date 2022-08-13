@@ -1,0 +1,186 @@
+{
+  "parked-vehicles": [
+    {
+      "id": 1661302845415,
+      "categoryID": "LP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 18:15:51",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1661302845417,
+      "categoryID": "LP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 19:9:38",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660388978512,
+      "categoryID": "LP",
+      "vehicleType": "Medium",
+      "startingTime": "August 13, 2022 19:9:42",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1661302845418,
+      "categoryID": "LP",
+      "vehicleType": "Medium",
+      "startingTime": "August 13, 2022 19:19:7",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1661302845419,
+      "categoryID": "LP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 20:2:41",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1661302845420,
+      "categoryID": "SP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 20:10:13",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660392618868,
+      "categoryID": "SP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 20:10:20",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660392624688,
+      "categoryID": "LP",
+      "vehicleType": "Medium",
+      "startingTime": "August 13, 2022 20:10:26",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660392626684,
+      "categoryID": "MP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 20:10:29",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660392629726,
+      "categoryID": "LP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 20:10:33",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660392633783,
+      "categoryID": "SP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 20:10:35",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1661302845421,
+      "categoryID": "SP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 20:20:16",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1661302845423,
+      "categoryID": "MP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 20:22:45",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660393365042,
+      "categoryID": "LP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 20:22:50",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660393370037,
+      "categoryID": "MP",
+      "vehicleType": "Medium",
+      "startingTime": "August 13, 2022 20:22:53",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660393373942,
+      "categoryID": "LP",
+      "vehicleType": "Medium",
+      "startingTime": "August 13, 2022 20:22:58",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660393378304,
+      "categoryID": "LP",
+      "vehicleType": "Large",
+      "startingTime": "August 13, 2022 20:23:1",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1661302845424,
+      "categoryID": "LP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 20:27:20",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1661302845425,
+      "categoryID": "SP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 20:28:36",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1661302845426,
+      "categoryID": "SP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 20:29:14",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660338333387,
+      "categoryID": "SP",
+      "vehicleType": "Medium",
+      "startingTime": "August 13, 2022 5:5:36",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660338336993,
+      "categoryID": "LP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 5:7:51",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660338333387,
+      "categoryID": "LP",
+      "vehicleType": "Medium",
+      "startingTime": "August 13, 2022 5:5:36",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1660338336993,
+      "categoryID": "LP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 5:7:51",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1661302845414,
+      "categoryID": "LP",
+      "vehicleType": "Small",
+      "startingTime": "August 13, 2022 5:12:16",
+      "deleteVehicle": "deleteVehicle"
+    },
+    {
+      "id": 1661302845427,
+      "categoryID": "LP",
+      "vehicleType": "Medium",
+      "startingTime": "August 13, 2022 21:0:5",
+      "deleteVehicle": "deleteVehicle"
+    }
+  ]
+}
