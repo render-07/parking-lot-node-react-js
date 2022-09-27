@@ -21,31 +21,26 @@ const style = {
 const SuccessModal = ({open, handleToggle, id, categoryID, vehicleType, startingTime, leavingParkSlot}) => {
   
   const calculateParkingCharge = (startingTime, categoryID) => {
+    console.log(startingTime);
+    console.log(new Date().getTime());
+
     // payables
     let totalAmount = 0;
     // get time difference from the time parked againts the current time of unparking
-    let timeDiff = (new Date().getTime() - startingTime) / 1000;
-
+    let timeDiff = Math.floor((new Date().getTime() - startingTime) / 1000);
+    let minutes = Math.floor(timeDiff / 60);
     // convert to hours
-    timeDiff /= (60 * 60);
+    let hours = Math.floor(minutes / 60);
     // if time difference is in the seconds set difference to 1 hours
     //  payments wont change as long as parking is within 3 hours
+    console.log(hours);
 
-    console.log(timeDiff);
+    if(hours < 0) {
+      hours = 1;
+    } 
 
-
-    if(timeDiff < 0) {
-        timeDiff = 1;
-    } else {
-        // get the absolute and rounded difference
-        // reference for calculation
-        timeDiff = Math.abs(Math.round(timeDiff));
-    }
-
-    console.log(timeDiff);
-
-    if (timeDiff > 3 && timeDiff < 24) {
-        let exceessTime = timeDiff - 3;
+    if (hours > 3 && hours < 24) {
+        let exceessTime = hours - 3;
         // get total payables per excess time based on the parking size
         if (categoryID === "SP") {
          totalAmount = 20 * exceessTime;
@@ -57,11 +52,14 @@ const SuccessModal = ({open, handleToggle, id, categoryID, vehicleType, starting
     }
 
     // check if time diff exceeds the 24 hour limit
-    if (timeDiff > 24) {
-        let numberOfDays = timeDiff / 24;
-        numberOfDays = Math.abs(Math.round(numberOfDays));
-        let excessHours = timeDiff - 24 * numberOfDays;
-        
+    if (hours > 24) {
+        let numberOfDays = hours / 24;
+        numberOfDays = Math.abs(Math.floor(numberOfDays));
+        let excessHours = hours - (24 * numberOfDays);
+        excessHours = Math.abs(Math.floor(excessHours));
+
+        console.log(numberOfDays);
+        console.log(excessHours);
 
         if(categoryID === "SP") {
          totalAmount = (5000 * numberOfDays) + (20 * excessHours);
@@ -70,7 +68,6 @@ const SuccessModal = ({open, handleToggle, id, categoryID, vehicleType, starting
         } else if( categoryID === "LP") {
          totalAmount = (5000 * numberOfDays) + (100 * excessHours);
         }
-
     }
     
     // flat rate of 40
@@ -110,7 +107,7 @@ const SuccessModal = ({open, handleToggle, id, categoryID, vehicleType, starting
          {leavingParkSlot &&  
          <>
           <Typography paragraph> 
-              Parking fee: <b>{price}</b>
+              Parking fee: <b>₱ {price}</b>
           </Typography>
           </>  
          }
